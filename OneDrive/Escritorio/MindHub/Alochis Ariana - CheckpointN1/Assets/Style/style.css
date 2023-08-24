@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+h1 {
+    color: white;
+}
+
+.a-header {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.a-header:hover {
+    background-color: gainsboro;
+}
+
+header {
+    background-image: url(../Images/banner.jpg);
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    background-color: gainsboro;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.div-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px 3px rgba(10, 10, 10, 0.164);
+}
+
+.img-section {
+    width: 18rem;
+    border-radius: 2rem;
+}
+
+section {
+    width: 18rem;
+}
+
+h4 {
+    text-align: center;
+}
+
+.div-list-table {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px rgba(10, 10, 10, 0.164);
+    flex-wrap: wrap;
+}
+
+li {
+    padding-bottom: 0.8rem;
+}
+
+table {
+    border-style: double;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border-style: double;
+    padding: 1rem;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.a-footer {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        width: 14rem;
+        padding-bottom: 1rem;
+    }
+
+    .img-section {
+        width: 14rem;
+    }
+
+    th,
+    td {
+        padding: 0.1rem;
+    }
+}
